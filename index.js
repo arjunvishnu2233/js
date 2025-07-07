@@ -107,42 +107,125 @@
       
 //     } 
 
-    let n=100;
-    let i=1;
+//     let n=100;
+//     let i=1;
      
-    do
-    {
-      if(i%2==1){
-        console.log(i);
-      }
-      i++;
-    }
-      while(i<=100)
+//     do
+//     {
+//       if(i%2==1){
+//         console.log(i);
+//       }
+//       i++;
+//     }
+//       while(i<=100)
       
 
-let m=100;
-let o=0;
+// let m=100;
+// let o=0;
 
-while(o<=100)
+// while(o<=100)
+// {
+//   if(o%3==0&&o%5==0){
+//     console.log("@");
+//   }
+//   else if(o%5==0){
+//     console.log("*");
+//   }
+//    else if(o%3==0)
+//    { 
+//     console.log("&"); 
+//   }
+//   else{
+//     console.log(o);
+    
+//   }
+// o++;
+// }
+
+// for(let i=1;i<=5;i++){
+//   console.log(i);
+  
+// }
+ 
+// let obj={name:"alan",rno:"6"}
+
+// for(let key in obj)
+// {
+//   console.log(obj[key]);
+  
+// }
+
+// let arr=[,2,4,]
+// for(let value of arr)
+// {
+//   console.log(value);
+  
+// }
+
+// let n=100;
+// for( i=1;i<=100;i++){
+// if(i%2==0){
+//   console.log(i);
+  
+// }
+// }
+
+// let m=100
+// for(i=1;i<=10;i++)
+// {
+//   console.log(i);
+
+//   if(i==7){
+//     console.log("skipped@",i);
+    
+//     continue;
+//   }
+//   console.log("not skip");
+  
+// }
+
+//  function add()
+// {
+//   a=10;
+//   b=15;
+//   c=a+b;
+//   console.log(c);
+  
+// }
+//   add()
+
+//   function sum(a,b)
+//   {
+//     console.log(a+b);
+  
+//   }
+//   let b=3
+//   let a=4
+//   sum(a,b)
+
+// const add= function(e,f)
+//   {
+//     console.log(e+f);
+  
+//   }
+//   add(15,4)
+
+// const add1=sum(a,b)
+
+let age=17
+ function isEligible(age)
 {
-  if(o%3==0&&o%5==0){
-    console.log("@");
-  }
-  else if(o%5==0){
-    console.log("*");
-  }
-   else if(o%3==0)
-   { 
-    console.log("&"); 
+  if (age>=18){
+    return "eligible";
   }
   else{
-    console.log(o);
-    
+  return "not eligible";
   }
-o++;
 }
-  
+const a= isEligible(age)
+console.log(a);
 
+ 
 
 
 
