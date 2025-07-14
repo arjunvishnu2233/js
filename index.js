@@ -212,20 +212,88 @@
 
 // const add1=sum(a,b)
 
-let age=17
- function isEligible(age)
-{
-  if (age>=18){
-    return "eligible";
+// let age=17
+//  function isEligible(age)
+// {
+//   if (age>=18){
+//     return "eligible";
+//   }
+//   else{
+//   return "not eligible";
+//   }
+// }
+// const a= isEligible(age)
+// console.log(a);
+
+//  var k=10;
+//  var l=5;
+
+//  function add(a,b){
+//   return (a+b);
+//  }
+// function diff(a,b){
+//   return (a-b);
+//  }
+// function multi(a,b){
+//   return (a*b);
+//  }
+// function div(a,b){
+//   return (a/b);
+//  }
+
+//  console.log(add(k,l));
+//  console.log(diff(k,l));
+//  console.log(multi(k,l));
+//  console.log(div(k,l));
+ 
+   let a=500;
+   let b=750;
+   let c=700;
+
+   function greatest(a,b,c){
+    if (a>b){
+
+      if(a>c){
+        return " a is greatest";
+      }
+      else {
+        return "c is greatest";
+    }
   }
   else{
-  return "not eligible";
+    if (b>c){
+      return "b is greatest";
+    }
+    else{
+      return " c is greatest";
+    }
   }
-}
-const a= isEligible(age)
-console.log(a);
+  }
+ function smallest(a,b,c){
+  if (a<b){
 
+  if(a<c){
+    return "a is smallest";
+  }
+  else{
+    return " c is smallest";
+  }}
+  else{
+    if(b<c){
+      return "b is smallest";
+    }
+    else{
+      return "c is smallest";
+    }
+  }}
+
+
+ console.log(greatest(a,b,c));
+ console.log(smallest(a,b,c));
  
+ 
+ 
+
 
 
 
