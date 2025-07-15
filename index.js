@@ -246,60 +246,98 @@
 //  console.log(multi(k,l));
 //  console.log(div(k,l));
  
-   let a=500;
-   let b=750;
-   let c=700;
+//    let a=500;
+//    let b=750;
+//    let c=700;
 
-   function greatest(a,b,c){
-    if (a>b){
+//    function greatest(a,b,c){
+//     if (a>b){
 
-      if(a>c){
-        return " a is greatest";
-      }
-      else {
-        return "c is greatest";
-    }
-  }
-  else{
-    if (b>c){
-      return "b is greatest";
-    }
-    else{
-      return " c is greatest";
-    }
-  }
-  }
- function smallest(a,b,c){
-  if (a<b){
+//       if(a>c){
+//         return " a is greatest";
+//       }
+//       else {
+//         return "c is greatest";
+//     }
+//   }
+//   else{
+//     if (b>c){
+//       return "b is greatest";
+//     }
+//     else{
+//       return " c is greatest";
+//     }
+//   }
+//   }
+//  function smallest(a,b,c){
+//   if (a<b){
 
-  if(a<c){
-    return "a is smallest";
-  }
-  else{
-    return " c is smallest";
-  }}
-  else{
-    if(b<c){
-      return "b is smallest";
-    }
-    else{
-      return "c is smallest";
-    }
-  }}
+//   if(a<c){
+//     return "a is smallest";
+//   }
+//   else{
+//     return " c is smallest";
+//   }}
+//   else{
+//     if(b<c){
+//       return "b is smallest";
+//     }
+//     else{
+//       return "c is smallest";
+//     }
+//   }}
 
 
- console.log(greatest(a,b,c));
- console.log(smallest(a,b,c));
+//  console.log(greatest(a,b,c));
+//  console.log(smallest(a,b,c));
  
  
- 
+//  let n=6;
+
+//  function pyramid(){
+//   for (let i= 1; i<=n; i++){
+//     let row= '';
+//   for (let j = 1; j<=i; j++){
+//     row += '*';
+//   }
+//   console.log(row);
+// }
+// }
+// pyramid();
 
 
 
+// let n=6;
+
+//  function pyramid(){
+//   for (let i= 6; i>=1; i--){
+//     let row= '';
+//   for (let j = 1; j<=i; j++){
+//     row += '*';
+//   }
+//   console.log(row);
+// }
+// }
+// pyramid();
 
 
+let n=6;
 
+ function pyramid(){
+  for (let i= 1; i>=n; i++){
+    let row= '';
+  for (let j = 1; j<=n-i; j++){
+    row += '';
+  }
+    for(let k=1;k<=2*i-1;k++){
+      row +='*'
+    }
   
+  console.log(row);
+}
+ }
+pyramid();
+
 
    
 
